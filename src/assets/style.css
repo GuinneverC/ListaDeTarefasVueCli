@@ -1,0 +1,52 @@
+body {
+    align-self: center;
+    background-color:rgb(181, 209, 221);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 40%;
+    margin: 20px auto 0px auto;
+  }
+  ul li {
+  list-style: none;
+  }
+  .removed {
+    color: gray;
+    text-decoration: line-through;
+  }
+  input{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+button {
+    background-color: rgb(20, 49, 104);
+    color: rgb(194, 212, 211);
+}
+header {
+    background-color: rgb(27, 88, 141);
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    right: 0;
+    left: 0; 
+    top: 0; 
+}
+footer {
+    background-color: rgb(27, 88, 141);
+    margin-top: 20px;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: aliceblue;
+    align-items: center;
+    
+}
